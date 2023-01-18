@@ -1,0 +1,158 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.header {
+    background-image: url(./images/flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 800px;
+    display: grid;
+    grid-template-rows: repeat(1 100px);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3); 
+}
+
+
+
+#top {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+#maintitle {
+    color: white;
+    font-size: 6rem;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-self: center;
+}
+
+#mainbutton {
+    border: 0;
+    margin: auto;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-size: 1.2rem;
+    background-color: rgba(0,0,0,0%);
+    text-decoration: underline;
+}
+
+.items {
+    display: grid;
+    grid-template-rows: repeat(4 1fr);
+    grid-template-columns: repeat (8 1fr);
+    width: 1500px;
+    column-gap: 10px;
+    row-gap: 40px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.rainbow {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    width: 450px;
+    height: 300px;
+    
+}
+
+.highway {
+    grid-column-start: 3;
+    grid-column-end: span 3;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    width: 450px;
+    height: 300px;
+}
+.hr {
+    color: #000000;
+}
+.maintext {
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    width: 300px;
+    height: auto;
+}
+
+.mainh1 {
+    font-size: 30px;
+
+}
+
+.explore {
+    font-size: 50px;
+    text-align: center;
+    border: #000000;
+}
+
+.itemsline {
+    display: grid;
+    grid-template-columns: repeat (3 1fr);
+    grid-template-rows: 1fr;
+    width: 1500px;
+    height: 500px;
+    column-gap: 20px;
+    padding-left: 50px;;
+}
+
+.hobbies {
+    background-image: url(./images/hobby.jpg);
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    color: aliceblue;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.places {
+    background-image: url(./images/ocean.jpg);
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    color: aliceblue;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.opps {
+    background-image: url(./images/sky.jpg);
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    color: aliceblue;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 45%;
+    text-decoration: black;
+}
