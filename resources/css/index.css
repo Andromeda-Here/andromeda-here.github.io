@@ -110,7 +110,7 @@
     width: 1500px;
     height: 500px;
     column-gap: 20px;
-    padding-left: 50px;;
+    justify-items: center;
 }
 
 .hobbies {
